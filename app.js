@@ -9,3 +9,13 @@ const sudoku = [
     ['','','','4','1','9','','','5'],
     ['','','','','8','','','7','9'],
 ];
+
+function sudokuSolver(sudoku){
+    for (let i=0; i<9; i++){
+        for (let j = 0 ; j<9; j++){
+            if(sudoku[i][j] ==""){
+                
+            }
+        }
+    }
+}
