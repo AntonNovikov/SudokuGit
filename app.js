@@ -10,6 +10,10 @@ const sudoku = [
     ['','','','','8','','','7','9'],
 ];
 
+let sudokuSolving = sudoku;
+
+
+
 function sudokuSolver(sudoku){
     for (let i=0; i<9; i++){
         for (let j = 0 ; j<9; j++){
